@@ -20,6 +20,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', views.runoob),
-    path('nodes/', views.nodes
-         ),
+    path('nodes/', views.nodes),
+    path('add/', views.AddNodes),
 ]
