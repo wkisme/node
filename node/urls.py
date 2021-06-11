@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
+from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', views.runoob),
-    path('nodes/', views.nodes),
+    url(r'^nodes/$', views.nodes),
     path('add/', views.AddNodes),
 ]
