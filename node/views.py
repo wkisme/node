@@ -10,7 +10,7 @@ def runoob(request):
 def nodes(request):
 
     # nodes = Node.objects.all()[:10]
-    # nodes = Node.objects.filter(name__contains='cn37230')
+    # nodes = Node.objects.filter(name__in=['cn5123','cn5134'])
     # nodes = Node.objects.filter(name__gt='cn0').order_by('name')
     # nodes = Node.objects.order_by('cab')
     # nodes = Node.objects.filter(cab__in=[64, 65, 66, 67], heter_linpack=1, heter_dgemm=1, heter_stream=1)
